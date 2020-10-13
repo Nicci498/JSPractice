@@ -35,6 +35,6 @@ const people = [
     {name: 'Dani', age: 25}
 ];
 
-for(let i = 0; i < people.length, i++){
+for(let i = 0; i < people.length; i++){
     console.log(people[i].name);
 };
