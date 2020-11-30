@@ -20,10 +20,25 @@ console.log(square(4));
 
 //iffy immediately invokable function expression
 
-(function(){
-    console.log('iffy ran');
-})();
+// (function(){
+//     console.log('iffy ran');
+// })();
 
-(function(name){
-    console.log('Hello ' + name);
-})('Kea');
+// (function(name){
+//     console.log('Hello ' + name);
+// })('Kea');
+
+//property methods
+
+const todo = {
+    add: function(){
+        console.log('added')
+    }, 
+    edit: function(id){
+        console.log( id + ' edited')
+    }
+}
+
+todo.delete = function(){
+    console.log('deleted')
+}
