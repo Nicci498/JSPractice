@@ -34,10 +34,14 @@ val = mixed.indexOf(true);
 //MUTATE
 //add to end
 numbers.push(250);
+mixed.push(null);
+fruit.push('berries');
 //remove from end
 numbers.pop();
+mixed.pop();
 //add to front 
 numbers.unshift(120);
+mixed.unshift('BOO')
 //remove from front
 numbers.shift();
 // splice vals (start, end)
