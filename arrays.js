@@ -7,14 +7,29 @@ let val;
 
 //array length
 val = numbers.length;
+
+for(val.length){
+    console.log('tick')
+}
+
 // is array?
 val = Array.isArray(numbers);
+val = Array.isArray(fruit);
+val = Array.isArray(mixed);
+
 //get single val
 val = numbers[3];
+val = mixed[0];
+
 // insert a val
 numbers[2] = 100;
+numbers[0] = 4;
+numbers[1] = 20;
+
 // find index of a val
 val = numbers.indexOf(36);
+
+val = mixed.indexOf(true);
 
 //MUTATE
 //add to end
