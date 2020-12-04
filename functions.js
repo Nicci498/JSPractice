@@ -4,10 +4,20 @@ function greet(firstName = 'John', lastName = 'Doe'){
     return 'Hello ' + firstName + ' ' + lastName;
 }
 
+function play(num){
+    if(num % 3 !== 0){
+        return 'Duck'
+    } else{
+        return 'Goose'
+    }
+}
+
 //call it
 greet();
 console.log(greet('Kea', 'Po'));
-
+play(7);
+console.log(play(4))
+console.log(play(6))
 
 //expressions
 
@@ -17,6 +27,14 @@ const square = function(x = 2){
 
 square(3);
 console.log(square(4));
+
+const meeting = function(day){
+    if(day.tolowercse() === 'tuesday' || day.tolowercse() === 'thursday'){
+        return true
+    } else {
+        return false
+    }
+}
 
 //iffy immediately invokable function expression
 
