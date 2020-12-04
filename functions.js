@@ -60,3 +60,7 @@ const todo = {
 todo.delete = function(){
     console.log('deleted')
 }
+
+todo.freakout = function(){
+    console.log('aaahhhhhh FREAKOUT')
+}
