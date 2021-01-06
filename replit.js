@@ -17,7 +17,7 @@ console.log(longestString(strings1)); // <--- 'really, really long!'
 function reverseStringFunctions(str) {
     return str.split("").reverse().join("");
   }
-  reverseString("LLO")
+  reverseStringFunctions("LLO")
 
 function reverseString(str) {
     let reversedString = "";
@@ -27,3 +27,10 @@ function reverseString(str) {
     return reversedString
 }
   reverseString("LLO")
+
+  //reversed number
+  function reverseNumberFunctions(num) {
+    num = num +"";
+  return parseInt(num.split("").reverse().join(""));
+  }
+  reverseNumberFunctions(123456)
